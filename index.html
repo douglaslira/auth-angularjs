@@ -2,9 +2,26 @@
 <html lang="en" ng-app="App">
 <head>
     <meta charset="UTF-8">
-    <title>Auth</title>
+    <title>Auth with ACL Boilerplate</title>
+
+    <script src="bower_components/angular/angular.js"></script>
+
 </head>
 <body>
+
+    <script src="app/modules/layout/module.js"></script>
+    <script src="app/modules/layout/controllers/rootController.js"></script>
+    <script src="app/modules/layout/route.config.js"></script>
+
+    <script src="app/modules/home/module.js"></script>
+    <script src="app/modules/home/controllers/homeController.js"></script>
+    <script src="app/modules/home/route.config.js"></script>
+
+    <script src="app/modules/auth/module.js"></script>
+    <script src="app/modules/auth/services/AuthService.js"></script>
+    <script src="app/modules/auth/services/SessionService.js"></script>
+    <script src="app/modules/auth/controllers/LoginController.js"></script>
+    <script src="app/modules/home/route.config.js"></script>
 
     <script src="app/app.js"></script>
 
