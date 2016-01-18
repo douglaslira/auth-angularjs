@@ -1,0 +1,27 @@
+{
+  "name": "auth-angularjs",
+  "homepage": "https://github.com/douglaslira/auth-angularjs",
+  "authors": [
+    "Douglas Lira <douglas.lira.web@gmail.com>"
+  ],
+  "description": "Boilerplate auth with angularjs",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "Douglas",
+    "Lira",
+    "AngularJS",
+    "Javascript",
+    "AMD"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
